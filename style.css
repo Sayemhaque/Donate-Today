@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 255, 255, 0.651);
+}
+/* button design */
+button{
+    background-color: #ff5959;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* button design */
+
+/* banner design */
+header{
+    background-image: url("./images/donation3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    background-blend-mode: darken;
+    background-color: rgba(85, 82, 82, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+.banner-ifo{
+  display: flex;
+  justify-content: center;
+}
+.banner-title{
+    color: white;
+    font-size: 55px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.banner-description{
+    color: rgb(187, 182, 182);
+    font-size: 15px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* banner responsive design*/
+@media (max-width:768px) {
+    .banner-title{
+        font-size: 30px;
+        width: 90%;
+    }
+.banner-description{
+   font-size: 13px;
+   width: 90%;
+}
+
+}
