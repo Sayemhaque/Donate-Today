@@ -261,3 +261,30 @@ hr{
 @media (max-width:768px) {
    
 }
+
+/* last massage  */
+.last-msg{
+    background-color: rgba(245, 255, 156, 0.705);
+    padding: 20px 0;
+}
+
+.last-msg-title{
+    font-size: 25px;
+    color: #ff5959;
+    text-align: center;
+    font-family: 'Bona Nova', serif;
+    font-style: italic;
+
+
+}
+
+.last-msg-short-ttile{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyring-text{
+    text-align: center;
+}
