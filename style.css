@@ -5,7 +5,7 @@
 }
 
 /* button design */
-button{
+.btn-primary{
     background-color: #ff5959;
     border: none;
     padding: 10px 20px;
@@ -15,12 +15,19 @@ button{
     cursor: pointer;
     border-radius: 30px;
 }
-
+.subscription-btn{
+    background-color: #ff5959;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: rgb(240, 235, 235);;
+    cursor: pointer;
+}
 /* button design */
 
 /* banner design */
 header{
-    background-image: url("./images/donation3.jpg");
+    background-image: url("./images/donation13.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -194,6 +201,7 @@ hr{
         margin: 50px 20px;
     }
     
+    
 }
 
 /* donate plan details styles */
@@ -214,4 +222,40 @@ hr{
 .detail-description{
     margin: 20px 0px;
     color: gray;
+}
+/* donate plan details responsive styles */
+@media (max-width:768px) {
+    .detail-title{
+        font-size: 22px;
+    }
+    
+}
+
+/* get my update section styles */
+.get-update{
+    margin: 100px 200px;
+}
+.subscriptin-input{
+    display: flex;
+    justify-content: center;
+    background-color: #fff4d6;
+    padding: 50px 20px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+.subscriptin-input > input{
+    padding: 9px 10px;
+    background-color: rgb(219, 219, 219);
+    border: none;
+}
+
+ /* fet my update section responsive design  */
+ @media (max-width:768px) {
+    .get-update{
+        margin: 50px 20px;
+    }
+}
+@media (max-width:768px) {
+   
 }
